@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aec33150-95e7-406b-b6a6-96bb4746674b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ToDoList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1k6yYjnf3pgfqzYj7sJixmHBBeC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bandomasis" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aec33150-95e7-406b-b6a6-96bb4746674b" name="Default Changelist" comment="" />
+      <created>1605035385147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605035385147</updated>
+      <workItem from="1605035386188" duration="6940000" />
+      <workItem from="1605048820632" duration="4972000" />
+      <workItem from="1605055846605" duration="2000" />
+      <workItem from="1605059475070" duration="1751000" />
+      <workItem from="1605078216876" duration="13224000" />
+      <workItem from="1605117480656" duration="597000" />
+      <workItem from="1605118195439" duration="387000" />
+      <workItem from="1605118599662" duration="8935000" />
+    </task>
+    <task id="LOCAL-00001" summary="To Do List Not Finished">
+      <created>1605126363684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605126363684</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="To Do List Not Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="To Do List Not Finished" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605049361874">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="446" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1605049361874" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1605126362816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605126362816" />
+    <state x="-1234" y="194" key="FileChooserDialogImpl" timestamp="1605085375425">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1234" y="194" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605085375425" />
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1605078233715" />
+    <state x="647" y="310" key="Github.ShareDialog" timestamp="1605126278585">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="647" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1605126278585" />
+    <state x="588" y="117" key="Github.UntrackedFilesDialog" timestamp="1605126287119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="588" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605126287119" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1605041308090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1605041308090" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605126373558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605126373558" />
+  </component>
+</project>
