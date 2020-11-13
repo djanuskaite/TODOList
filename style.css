@@ -2,12 +2,16 @@ body {
     background-color: #e3e8ff;
 }
 
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
 /*table {*/
 /*    !*kad gautume 1 single borderi ir nesidubliuotu*!*/
 /*    border-collapse: collapse;*/
 /*    width: 50%;*/
 /*    margin: 50px auto;*/
-/*    margin-top: 100px;*/
+/*    */
 /*    background-color: whitesmoke;*/
 /*}*/
 

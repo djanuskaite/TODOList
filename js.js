@@ -1,13 +1,20 @@
 const submit = document.getElementById("submit");
+const form = document.querySelector("#form"); // prie nuresetinimo
 // submit.addEventListener("click", displayDetails);
 submit.addEventListener("click", function (e){
     e.preventDefault();
     displayDetails();}, false);
+//kad resetintu info (istrintu) formoje paspaudus submit
+submit.addEventListener("click", function (e){
+    e.preventDefault();
+    form.reset();
+}, false);
 
 let row = 1;
 console.log("Dalis iki funkcijos");
 
 //const tableBody = document.querySelector("#tableBody");
+
 
 
 function displayDetails() {
@@ -45,10 +52,10 @@ function displayDetails() {
     cell4.innerHTML = date;
     cell5.innerHTML = status;
     cell6.innerHTML = proc;
-    const btnDelete = document.createElement("td");
+    const btnDelete = document.createElement("subject");
     //check.setAttribute("type", "remove");
-    btnDelete.className = " deleteBtn d-flex justify-content-center";
-    btnDelete.innerHTML = '<input id="deleteBtn" class="deteleBtn bg-black" type="button" value="remove">';
+    //btnDelete.className = "deleteBut bg-dark";
+    btnDelete.innerHTML = '<input id="deleteBtn" class="bg-dark align-top" type="button" value="remove">';
     cell7.appendChild(btnDelete);
     row++;
 
@@ -67,20 +74,20 @@ function displayDetails() {
     //progres baras
 
     if (proc === "100%")
-        cell6.innerHTML = proc + '<span class="progress">' + '<span class="progress-bar" role="progressbar" ' +
-            'style="width: 100%"' + ' aria-valuenow="100" aria-valuemin="0" aria-valuemax="80"></span></span>';
+        cell6.innerHTML = '<span class="progress">' + '<span class="progress-bar progress-bar-striped active bg-secondary" role="progressbar" ' +
+            'style="width: 100%"' + ' aria-valuenow="100" aria-valuemin="0" aria-valuemax="80">100%</span></span>';
     else if (proc === "75%")
-        cell6.innerHTML = proc + '<span class="progress">' + '<span class="progress-bar" role="progressbar" ' +
-            'style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="80"></span></span>';
+        cell6.innerHTML = '<span class="progress">' + '<span class="progress-bar progress-bar-striped active bg-secondary" role="progressbar" ' +
+            'style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="80">75%</span></span>';
     else if (proc === "50%")
-        cell6.innerHTML = proc + '<span class="progress">' + '<span class="progress-bar" role="progressbar" ' +
-            'style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="80"></span></span>';
+        cell6.innerHTML = '<span class="progress">' + '<span class="progress-bar progress-bar-striped active bg-secondary" role="progressbar" ' +
+            'style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="80">50%</span></span>';
     else if (proc === "25%")
-        cell6.innerHTML = proc + '<span class="progress">' + '<span class="progress-bar" role="progressbar" ' +
-            'style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="80"></span></span>';
+        cell6.innerHTML = '<span class="progress">' + '<span class="progress-bar progress-bar-striped active bg-secondary" role="progressbar" ' +
+            'style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="80">25%</span></span>';
     else if (proc === "0%")
-        cell6.innerHTML = proc + '<span class="progress">' + '<span class="progress-bar" role="progressbar" ' +
-            'aria-valuenow="0" aria-valuemin="0" aria-valuemax="80"></span></span>';
+        cell6.innerHTML = '<span class="progress">' + '<span class="progress-bar progress-bar-striped active bg-secondary" role="progressbar" ' +
+            'aria-valuenow="0" aria-valuemin="0" aria-valuemax="80">0%</span></span>';
 
 
     //check cross out
@@ -90,39 +97,21 @@ function displayDetails() {
 
     function cross() {
         if (check.checked === true) {
-            newRow.style.textDecoration = "line-through";
-            newRow.style.opacity = "0.75";
+            cell2.style.textDecoration = "line-through";
+            cell2.style.opacity = "0.75";
         } else {
-            newRow.style.textDecoration = "none";
-            newRow.style.opacity = "1";
+            cell2.style.textDecoration = "none";
+            cell2.style.opacity = "1";
         }
     }
 
+        //delete mygtuka tvarkom
     //delete mygtuka tvarkom
-
     btnDelete.addEventListener("click", onDeleteRow);
-    function onDeleteRow(e) {
-        if (!e.target.classList.contains("deleteBtn")) {
-            return;
-        }
+    function onDeleteRow(){
+        newRow.innerHTML="";}
 
-        const btnDelete = e.target;
-        btnDelete.closest("tr").remove();
+        //uzsidaro visa funkcija default display
+
+    console.log("done");
     }
-
-
-
-
-
-    // btnDelete.addEventListener("click", function (e){
-    //     e.preventDefault();
-    //     deleteItem(e.target.parentNode.parentNode.rowIndex);
-    // },false);
-    //
-    // function deleteItem(row){
-    //     console.log("f-ja delete");
-    //     tableBody.removeChild(row);
-    // }
-
-}
-``
