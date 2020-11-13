@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aec33150-95e7-406b-b6a6-96bb4746674b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
@@ -44,6 +45,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pikis\PhpstormProjects\ToDoList\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users" />
     </key>
@@ -65,7 +69,8 @@
       <workItem from="1605118195439" duration="387000" />
       <workItem from="1605118599662" duration="9245000" />
       <workItem from="1605178751219" duration="32048000" />
-      <workItem from="1605250938559" duration="11577000" />
+      <workItem from="1605250938559" duration="11610000" />
+      <workItem from="1605302896847" duration="1624000" />
     </task>
     <task id="LOCAL-00001" summary="To Do List Not Finished">
       <created>1605126363684</created>
@@ -88,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605227045170</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Viskas done, liko stilius">
+      <created>1605267031636</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605267031636</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,21 +110,23 @@
     <MESSAGE value="To Do List Not Finished" />
     <MESSAGE value="To Do List Checkbox" />
     <MESSAGE value="To Do List Checkbox CrossOut Progress bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="To Do List Checkbox CrossOut Progress bar" />
+    <MESSAGE value="Viskas done, liko stilius" />
+    <option name="LAST_COMMIT_MESSAGE" value="Viskas done, liko stilius" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1605223885095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1605223885095" />
-    <state x="446" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605049361874">
+    <state x="446" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605303427692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="446" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1605049361874" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1605227044368">
+    <state x="446" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605303427692" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1605267030867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605227044368" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605267030867" />
     <state x="-1234" y="194" key="FileChooserDialogImpl" timestamp="1605085375425">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -130,10 +144,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1605041308090" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605227051686">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605267036584">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605227051686" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605267036584" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1605180989820">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

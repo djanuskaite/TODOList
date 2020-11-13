@@ -1,9 +1,7 @@
 body {
-    background-color: #e3e8ff;
-}
-
-.table > tbody > tr > td {
-    vertical-align: middle;
+    background: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*table {*/

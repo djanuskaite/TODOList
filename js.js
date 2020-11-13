@@ -55,18 +55,18 @@ function displayDetails() {
     const btnDelete = document.createElement("subject");
     //check.setAttribute("type", "remove");
     //btnDelete.className = "deleteBut bg-dark";
-    btnDelete.innerHTML = '<input id="deleteBtn" class="bg-dark align-top" type="button" value="remove">';
+    btnDelete.innerHTML = '<input id="deleteBtn" class="bg-transparent text-dark" type="button" value="remove">';
     cell7.appendChild(btnDelete);
     row++;
 
 //
     if (priority === "Low") {
-        cell3.innerHTML = '<p class= "text-center border rounded-pill bg-danger" >' + priority + '</p>';  // priority.innerHtml - susidubliuoja reiksmes.
+        cell3.innerHTML = '<p class= "text-center border rounded-pill bg-light" >' + priority + '</p>';  // priority.innerHtml - susidubliuoja reiksmes.
         // Man reikia cia info numesti i cell, o ne dar viena reiksme sukurt.
     } else if (priority === "Normal") {
-        cell3.innerHTML = '<p class="text-center border rounded-pill bg-primary">' + priority + '</p>';
+        cell3.innerHTML = '<p class="text-center border rounded-pill bg-secondary">' + priority + '</p>';
     } else if (priority === "High") {
-        cell3.innerHTML = '<p class="text-center border rounded-pill bg-success">' + priority + '</p>';
+        cell3.innerHTML = '<p class="text-center border rounded-pill bg-info">' + priority + '</p>';
     }
     console.log("priority dalis");
 
